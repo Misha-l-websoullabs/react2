@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:1440px){
+    .card1{
+        margin-left: 200px;
+       margin-right: 200px;
+        text-align: center;
+        position: relative;
+        bottom: 170px;
+        
+    }
+    
+    .text1{
+       font-size: 18px;
+        color: #e68421;
+        padding-top: 50px;
+    }
+    .text2{
+        font-size: 38px;
+        color: #000;
+        padding-top: 20px;
+        
+    }
+    .button1{
+        margin-top: 0;
+        margin-left:450px ;
+        background-color: #e68421;
+        border-color: #e68421;
+        color: white;
+        padding-left: 6px ;
+        padding-right: 6px ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+}
+@media(max-width:1024px){
+    .button1{
+        margin-left: 320px;
+    }
+    .card1{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media(max-width:768px){
+    .button1{
+        margin-bottom: 30px;
+        margin-left: 220px;
+    }
+    .card1{
+        top: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .text1{
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .text2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media(max-width:426px){
+    .button1{
+       font-size: 12px;
+        margin-left: 110px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .card1{
+        
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .text1{
+       font-size: 14px;
+       padding-left: 40px;
+       padding-right: 40px;
+    }
+    .text2{
+        font-size: 25px;
+    }
+}
+@media(max-width:376px){
+    .button1{
+       
+        margin-left: 90px;
+       
+    }
+    .card1{
+        
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .text1{
+      
+       padding-left: 40px;
+       padding-right: 40px;
+    }
+    .text2{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media(max-width:320px){
+    .button1{
+       
+        margin-left: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+    .card1{
+        
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .text1{
+      
+       padding-left: 25px;
+       padding-right: 25px;
+    }
+    .text2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

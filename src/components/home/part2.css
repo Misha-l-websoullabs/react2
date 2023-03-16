@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 410px;
+}
+.img1{
+    width: 550px;
+    
+}
+.img{
+    padding-left: 180px;
+    position: relative;
+    bottom: 60px;
+}
+.details{
+    
+    position: relative;
+    bottom: 700px;
+    padding-left: 760px;
+    padding-right: 80px;
+
+    
+}
+
+.head1{
+    font-size: 14px;
+    color: #f2993f;
+}
+.head2{
+    font-size: 38px;
+    color: #333333;
+    padding-top: 10px;
+    padding-right: 100px;
+    font-weight: 600;
+}
+.line{
+    margin-top: 40px;
+}
+.sub1{
+    font-size: 16px;
+    color: #666666;
+    padding-top: 40px;
+    
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+.sub2{
+    font-weight: 700;
+    line-height: 2.5rem;
+    font-size: 16px;
+    color: #666666;
+    padding-top: 20px;
+    
+    letter-spacing: 2px;
+}
+
+@media(max-width:1024px){
+    .img{
+        padding-left: 100px;
+    }
+    .details{
+        bottom: 750px;
+        padding-left: 500px;
+        padding-right: 90px;
+        
+    }
+    .sub1{
+        padding-top: 20px;
+        letter-spacing: 1px;
+    }
+    .line{
+        margin-top:20px ;
+        
+    }
+    .sub2{
+        padding-top: 10px;
+        letter-spacing: 1px;
+    }
+    
+}
+@media(max-width:768px){
+    .details{
+        padding-left: 70px;
+        padding-right: 150px;
+    }
+    .main{
+        position: relative;
+        top: 160px;
+
+    }.img{
+        padding-left: 70px;
+    }
+}
+@media(max-width:426px){
+    .img1{
+        width: 325px;
+        
+    }
+    .img{
+        bottom: 110px;
+        padding-left: 50px;
+    }
+    .details{
+        top:0px ;
+        padding-top: 0;
+        padding-left: 50px;
+        margin-top: 0;
+        padding-right: 60px;
+    }
+    .head2{
+        padding-right: 0;
+        
+    }
+    .sub1{
+        font-weight: 500;
+    }
+    .sub2{
+        font-weight: 500;
+    }
+}
+@media(max-width:376px){
+    .img1{
+        width: 298px;
+    }
+    .img{
+        padding-left: 40px;
+    }
+    .details{
+        padding-right: 65px;
+        padding-left: 40px;
+    }
+    .sub1{
+        line-height: 1.8rem;
+    }
+    .sub2{
+        line-height: 1.8rem;
+    }
+}
+@media(max-width:320px){
+    .img1{
+        width: 240px;
+        height: 250px;
+    }
+    .details{
+        padding-right: 50px;
+    }
+}
+

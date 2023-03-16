@@ -1,0 +1,141 @@
+.banner{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.pMk7VW3oBM-WjWQWcTTUfQHaD6&pid=Api&rs=1&c=1&qlt=95&w=173&h=91');
+    background-size: cover;
+    height: 550px;
+    margin-top: 120px;
+    color: #ffff;
+}
+
+
+.content{
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+}
+.desc{
+    font-size: 34px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    color: white;
+   
+    font-weight: 700;
+    border-radius: 1px;
+    padding: 5px 11px;
+    background-color:transparent;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.button:hover{
+    background-color: #f89a42;
+}
+.fade_bottom{
+    height: 260px;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+
+}
+
+@media(max-width:1024px){
+    .banner{
+        margin-top: 100px;
+    }
+    .content{
+        padding-left: 230px;
+        padding-right: 230px;
+
+    }
+    .fade_bottom{
+        height: 220px;
+    }
+}
+@media(max-width:768px){
+    .banner{
+        margin-top: 100px;
+        height: 300px;
+    }
+    .content{
+        padding-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+       
+
+    }
+    .fade_bottom{
+        height: 70px;
+    }
+    .desc{
+        font-size: 23px;
+    }
+}
+@media(max-width:426px){
+    .banner{
+        margin-top: 100px;
+        height: 200px;
+    }
+    .content{
+        padding-top: 60px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+    .fade_bottom{
+        height: 40px;
+    }
+    .desc{
+        font-size: 11px;
+        font-weight: 800;
+    }
+}
+@media(max-width:376px){
+    .banner{
+        margin-top: 100px;
+        height: 200px;
+    }
+    .content{
+        padding-top: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+    .fade_bottom{
+        height: 20px;
+    }
+    .desc{
+        font-size: 11px;
+        font-weight: 800;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+}
+@media(max-width:320px){
+    .banner{
+       
+        height: 150px;
+    }
+    .content{
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+    .fade_bottom{
+        height: 0px;
+        padding-top: 0px;
+    }
+    .desc{
+        font-size: 11px;
+        font-weight: 800;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .button{
+        border: none;
+    }
+    
+}
+
+
